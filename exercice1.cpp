@@ -39,6 +39,15 @@ int main(void){
         cout << *it << endl;
     }
 
+    //Ajout d'un élément en fin de vecteur: 
+    v.push_back(1);
+
+    cout << "Taille du vecteur : " << v.size() << endl; 
+
+    vector<int> v2;
+
+    v2.assign(v.begin(), v.end());
+
 
     return 0; 
 }
