@@ -11,6 +11,7 @@ int main(void){
 
 
     //On affecte des valeurs 3, 1, 4
+    //coucou
     v[0] = 3; 
     v[1] = 1; 
     v[2] = 4; 
