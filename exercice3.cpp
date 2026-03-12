@@ -24,12 +24,11 @@ int main(void){
     list<int>::iterator it1 = L.begin();
     advance(it1, 2);
     L.erase(it1);
-    // ATTENTION : ne fonctionne pas 
 
     //affichage 
     list<int>::iterator it2; 
     for(it2 = L.begin(); it2 != L.end() ; it2 ++){
-        cout << *it << endl;
+        cout << *it2 << endl;
     }
 
 
