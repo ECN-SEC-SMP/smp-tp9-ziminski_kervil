@@ -1,5 +1,5 @@
 # Règle par défaut pour compiler l'exécutable
-all:  exercice1 exercice3 exercice4
+all:  exercice1 exercice3 exercice4 exercice5
 
 # Commande de compilation directe
 exercice1: exercice1.cpp
@@ -8,6 +8,9 @@ exercice3: exercice3.cpp
 	g++ -Wall -Wextra -std=c++17 exercice3.cpp -o exercice3.out
 exercice4: exercice4.cpp
 	g++ -Wall -Wextra -std=c++17 exercice4.cpp -o exercice4.out
+
+exercice5: exercice5.cpp
+	g++ -Wall -Wextra -std=c++17 exercice5.cpp -o exercice5.out
 
 # Règle pour supprimer l'exécutable
 clean:
